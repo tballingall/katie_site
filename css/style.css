@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+	font-family: Magra, Arial, Helvetica, sans-serif;
+    /*remember, the URL for the background image is based on where the CSS document is, not the HTML */
+	background: #66CCFF repeat;
+	margin:0;
+	padding:0;
+	color: white;
+	font-size: .8rem;
+	letter-spacing: .05rem;
+}
+
+.wrap {
+	width:960px;
+	background: url(../img/background/2144.jpg) repeat rgb(70, 203, 171);
+	margin:0 auto;
+	overflow: hidden;
+	height: 100%;
+}
+
+
+/** header stuff **/
+.top-info {
+	position: fixed;
+	width: 960px;
+	height: 50px;
+	background: rgba(49, 76, 142, .5);
+	margin: 0 auto;
+	top: 0px;
+}
+
+.top-info .contact .logo {
+  margin: 0px;
+  display: block;
+}
+
+.contact{
+	float: left;
+	margin: 5px 0px 5px 10px;
+}
+./* put logo here when Katie gets it*/
+.logo {
+  float: left;
+  margin: 5px 0 0 25px;
+}
+
+.logo a {
+  float: left;
+  /*padding: 5px;*/
+}
+
+a {
+  /*padding-left: 25px;*/
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	list-style-type: none;
+}
+
+/*nav a {
+	font-size: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}*/
+
+h1, h2, h3, h4{
+	font-family: 'Trocchi', serif;
+	color: white;
+}
+
+h1{
+	display: none;
+}
+
+h3{
+	display: block;
+	font-size: 1.7rem;
+}
+
+footer{
+background: rgb(48, 140, 160);
+overflow: auto;
+}
+
+.bg-credit{
+	float: left;
+	width: 250px;
+	margin: 35px;
+	display: block;
+}
